@@ -357,9 +357,10 @@ strong {
   overflow: hidden;
 }
 
-@media screen and (min-width: 992px) {
+@media screen {
   .hero {
     height: 100vh;
+    visibility: visible;
   }
 
   .custom-video,
