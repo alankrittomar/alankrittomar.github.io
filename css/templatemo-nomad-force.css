@@ -357,10 +357,11 @@ strong {
   overflow: hidden;
 }
 
-@media screen {
+@media screen{
   .hero {
     height: 100vh;
-    visibility: visible;
+    min-width: none;
+
   }
 
   .custom-video,
